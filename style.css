@@ -1,3 +1,8 @@
+.js-loading * {
+    animation-play-state: paused;
+}
+
+
 body {
     background-color: rgb(0, 0, 0);
     margin: 0;
@@ -29,11 +34,39 @@ section {
 /* Home */
 
 #home {
+    animation: no-transform 2s .3s cubic-bezier(0, .44, .12, .94) forwards;
     background: url('/Images/Pho2.jpeg') no-repeat center center/cover;
     min-height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    transform: translateY(-4rem);
+    opacity: 0;
+}
+
+.home-title {
+    animation: no-transform 1.5s .5s cubic-bezier(0, .84, .2, 1.26) forwards;
+    opacity: 0;
+    transform: translateY(-4rem) scale(0.8);
+
+}
+
+.home-down-arrow {
+    animation: pulse 2s 3s ease-out infinite;
+    position: absolute;
+    bottom: 7vh;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+
+}
+
+.home-down-arrow img {
+    animation: no-transform 1s 1s ease-out forwards;
+    opacity: 0;
+    transform: translateY(4rem);
+
 }
 
 @media screen and (min-width: 620px) {
@@ -45,6 +78,10 @@ section {
 @media screen and (min-width: 992px) {
     #home {
         min-height: 100vh;
+    }
+
+    .home-title {
+        font-size: 4rem;
     }
 }
 
@@ -560,5 +597,31 @@ blockquote:after {
 @media screen and (min-width: 1100px) {
     #footer {
         height: 17vh;
+    }
+}
+
+/* ANIMATION */
+
+@keyframes pulse {
+    0% {
+        opacity: 1;
+        transform: none;
+    }
+
+    50% {
+        opacity: 0.8;
+        transform: scale(0.8);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes no-transform {
+    100% {
+        opacity: 1;
+        transform: none;
     }
 }

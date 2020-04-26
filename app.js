@@ -1,3 +1,12 @@
+document.body.className += "js-loading";
+
+window.addEventListener("load", showPage, false);
+
+function showPage() {
+    document.body.className = document.body.className.replace("js-loading", "");
+}
+
+
 // Mapbox
 
 mapboxgl.accessToken = 'pk.eyJ1IjoibWlvY2h1bmc3IiwiYSI6ImNrOG13cXoxbDA2c2UzbW1lcm1iZWZ5NnEifQ.5nuyV8naVrjogYKyx_TFzw';
