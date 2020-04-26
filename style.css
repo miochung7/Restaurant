@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 /* .whole-container {
@@ -75,7 +75,7 @@ section {
     display: inline-block;
     color: #fff;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1rem;
     padding: 0.5rem 5px;
     overflow: hidden;
     position: relative;
@@ -217,7 +217,7 @@ section {
 
 .menu-text a {
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.2rem;
     color: #fff;
     padding: 2% 0;
 }
@@ -250,12 +250,12 @@ section {
     }
 
     .menu-text h1 {
-        font-size: 3em;
+        font-size: 3rem;
         width: 150px;
     }
 
     .menu-text a {
-        font-size: 2em;
+        font-size: 2rem;
     }
 }
 
@@ -285,8 +285,9 @@ section {
     padding: 2%;
 }
 
-.find-text p {
-    font-size: 0.8em;
+.find-text p,
+.find-text2 p {
+    font-size: 0.8rem;
 }
 
 .block-line {
@@ -298,8 +299,10 @@ section {
 
 
 @media screen and (min-width: 576px) {
-    .find-text p {
-        font-size: 1em;
+
+    .find-text p,
+    .find-text2 p {
+        font-size: 1rem;
     }
 
     .block-line {
@@ -317,8 +320,9 @@ section {
         font-size: 3em;
     }
 
-    .find-text p {
-        font-size: 1.5em;
+    .find-text p,
+    .find-text2 p {
+        font-size: 1.5rem;
     }
 
     .find-text-container {
@@ -327,15 +331,6 @@ section {
 
     .block-line {
         width: 200px;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-
-
-    .find-text p,
-    .find-text2 p {
-        font-size: 1.5em;
     }
 }
 
@@ -407,7 +402,7 @@ blockquote {
 
 blockquote:before {
     content: open-quote;
-    font-size: 3em;
+    font-size: 3rem;
     line-height: 0.1em;
     margin-right: 0.20em;
     vertical-align: -0.4em;
@@ -415,7 +410,7 @@ blockquote:before {
 
 blockquote:after {
     content: open-quote;
-    font-size: 3em;
+    font-size: 3rem;
     line-height: 0.1em;
     margin-left: 0.20em;
     vertical-align: -0.5em;
@@ -427,11 +422,11 @@ blockquote:after {
     }
 
     #testimonials h1 {
-        font-size: 3em;
+        font-size: 3rem;
     }
 
     .testimonial-container {
-        font-size: 1.3em;
+        font-size: 1.3rem;
         width: 50%;
         margin: 0 auto;
     }
@@ -475,11 +470,11 @@ blockquote:after {
     }
 
     .career-text h1 {
-        font-size: 3em;
+        font-size: 3rem;
     }
 
     .career-text p {
-        font-size: 1.5em;
+        font-size: 1.5rem;
     }
 }
 
@@ -508,7 +503,7 @@ blockquote:after {
     }
 
     #about-us h1 {
-        font-size: 3em;
+        font-size: 3rem;
     }
 
     .about-container {
@@ -518,7 +513,7 @@ blockquote:after {
     }
 
     .about-container p {
-        font-size: 1.7em;
+        font-size: 1.7rem;
     }
 }
 
@@ -559,7 +554,7 @@ blockquote:after {
 }
 
 #footer p {
-    font-size: 12px;
+    font-size: 0.8rem;
 }
 
 @media screen and (min-width: 1100px) {
