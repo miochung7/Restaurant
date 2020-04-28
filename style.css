@@ -35,7 +35,7 @@ section {
 
 #home {
     animation: no-transform 2s .3s cubic-bezier(0, .44, .12, .94) forwards;
-    background: url('/Images/Pho2.jpeg') no-repeat center center/cover;
+    background: url('Images/Pho2.jpeg') no-repeat center center/cover;
     min-height: 50vh;
     display: flex;
     justify-content: center;
