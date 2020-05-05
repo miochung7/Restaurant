@@ -500,9 +500,10 @@ blockquote:after {
     flex-direction: column;
     justify-content: center;
     padding: 0 1%;
+    font-size: 0.8rem;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
     #careers {
         height: 100vh;
     }
@@ -512,7 +513,7 @@ blockquote:after {
     }
 
     .career-text p {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 }
 
