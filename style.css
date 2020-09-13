@@ -287,7 +287,7 @@ section {
 /* Find Us */
 
 .find-container {
-	padding: 0 5% 2%;
+	padding: 0 5%;
 }
 
 #map {
@@ -331,10 +331,6 @@ section {
 }
 
 @media screen and (min-width: 992px) {
-	#find-us {
-		height: 100vh;
-	}
-
 	.find-header h1 {
 		margin-top: 2%;
 		font-size: 3em;
@@ -402,7 +398,6 @@ section {
 	flex-direction: column;
 	grid-gap: 2px;
 	line-height: 1.4;
-	padding: 3% 0;
 }
 
 .testimonial-name {
